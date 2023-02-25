@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "Search...",
-  "cmfcmf/d-s-l.searchBar.noResults": "No results found.",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Clear",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Cancel",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Submit"
+  "anmode/d-s-l.searchBar.placeholder": "Search...",
+  "anmode/d-s-l.searchBar.noResults": "No results found.",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Clear",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Cancel",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Submit"
 }

@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "検索...",
-  "cmfcmf/d-s-l.searchBar.noResults": "該当する結果はありません。",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Clear",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Cancel",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Submit"
+  "anmode/d-s-l.searchBar.placeholder": "検索...",
+  "anmode/d-s-l.searchBar.noResults": "該当する結果はありません。",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Clear",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Cancel",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Submit"
 }

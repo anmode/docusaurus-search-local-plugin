@@ -145,7 +145,7 @@ const optionsSchema = Joi.object({
   }).default(),
 });
 
-export default function cmfcmfDocusaurusSearchLocal(
+export default function anmodeDocusaurusSearchLocal(
   context: LoadContext,
   options: MyOptions
 ): Plugin<unknown> {
@@ -273,7 +273,7 @@ export const tokenize = (input) => lunr.tokenizer(input)
   });
 
   return {
-    name: "@cmfcmf/docusaurus-search-local",
+    name: "@anmode/docusaurus-search-local",
     getThemePath() {
       return path.resolve(__dirname, "..", "..", "lib", "client", "theme");
     },

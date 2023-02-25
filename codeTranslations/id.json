@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "Cari...",
-  "cmfcmf/d-s-l.searchBar.noResults": "Hasil tidak ditemukan.",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Hapus",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Batal",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Kirim"
+  "anmode/d-s-l.searchBar.placeholder": "Cari...",
+  "anmode/d-s-l.searchBar.noResults": "Hasil tidak ditemukan.",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Hapus",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Batal",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Kirim"
 }

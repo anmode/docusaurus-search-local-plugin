@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "Søk...",
-  "cmfcmf/d-s-l.searchBar.noResults": "Fant ingen resultater.",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Fjern",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Avbryt",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Send inn"
+  "anmode/d-s-l.searchBar.placeholder": "Søk...",
+  "anmode/d-s-l.searchBar.noResults": "Fant ingen resultater.",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Fjern",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Avbryt",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Send inn"
 }

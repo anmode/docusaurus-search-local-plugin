@@ -60,7 +60,7 @@ async function fetchIndex(
       json = await response.json();
     } catch (err) {
       // An index might not actually exist if no pages for it have been indexed.
-      // https://github.com/cmfcmf/docusaurus-search-local/issues/85
+      // https://github.com/anmode/docusaurus-search-local/issues/85
       // TODO: we should somehow pass the names of indexes that exist to the
       // client at build time instead of catching the error here.
       return EMPTY_INDEX;
@@ -114,7 +114,7 @@ const SearchBar = () => {
     parentCategoriesBoost,
     indexDocSidebarParentCategories,
     maxSearchResults,
-  } = usePluginData("@cmfcmf/docusaurus-search-local") as DSLAPluginData;
+  } = usePluginData("@anmode/docusaurus-search-local") as DSLAPluginData;
 
   const history = useHistory<DSLALocationState>();
 
@@ -162,7 +162,7 @@ const SearchBar = () => {
   };
 
   const placeholder = translate({
-    message: "cmfcmf/d-s-l.searchBar.placeholder",
+    message: "anmode/d-s-l.searchBar.placeholder",
     description: "Placeholder shown in the searchbar",
   });
 
@@ -186,7 +186,7 @@ const SearchBar = () => {
       navigator: {
         navigate({ item, itemUrl }) {
           history.push(itemUrl, {
-            cmfcmfhighlight: {
+            anmodehighlight: {
               terms: item.terms,
               isDocsOrBlog:
                 item.document.type === "docs" || item.document.type === "blog",
@@ -201,15 +201,15 @@ const SearchBar = () => {
 
       translations: {
         clearButtonTitle: translate({
-          message: "cmfcmf/d-s-l.searchBar.clearButtonTitle",
+          message: "anmode/d-s-l.searchBar.clearButtonTitle",
           description: "Title of the button to clear the current search input",
         }),
         detachedCancelButtonText: translate({
-          message: "cmfcmf/d-s-l.searchBar.detachedCancelButtonText",
+          message: "anmode/d-s-l.searchBar.detachedCancelButtonText",
           description: "Text of the button to close the detached search window",
         }),
         submitButtonTitle: translate({
-          message: "cmfcmf/d-s-l.searchBar.submitButtonTitle",
+          message: "anmode/d-s-l.searchBar.submitButtonTitle",
           description: "Title of the button to submit a new search",
         }),
       },
@@ -242,7 +242,7 @@ const SearchBar = () => {
                     onClick={(e) => {
                       e.preventDefault();
                       history.push(url, {
-                        cmfcmfhighlight: {
+                        anmodehighlight: {
                           terms: item.terms,
                           isDocsOrBlog:
                             item.document.type === "docs" ||
@@ -289,7 +289,7 @@ const SearchBar = () => {
                     <div className="aa-ItemContentBody">
                       {SEARCH_INDEX_AVAILABLE
                         ? translate({
-                            message: "cmfcmf/d-s-l.searchBar.noResults",
+                            message: "anmode/d-s-l.searchBar.noResults",
                             description:
                               "message shown if no results are found",
                           })

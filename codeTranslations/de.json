@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "Suchen...",
-  "cmfcmf/d-s-l.searchBar.noResults": "Keine Suchergebnissse gefunden.",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Leeren",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Abbrechen",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Suchen"
+  "anmode/d-s-l.searchBar.placeholder": "Suchen...",
+  "anmode/d-s-l.searchBar.noResults": "Keine Suchergebnissse gefunden.",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Leeren",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Abbrechen",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Suchen"
 }

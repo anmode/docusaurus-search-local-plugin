@@ -17,6 +17,6 @@ type MyOptions = {
         parentCategoriesBoost: number;
     };
 };
-export default function cmfcmfDocusaurusSearchLocal(context: LoadContext, options: MyOptions): Plugin<unknown>;
+export default function anmodeDocusaurusSearchLocal(context: LoadContext, options: MyOptions): Plugin<unknown>;
 export declare function validateOptions({ options, validate, }: OptionValidationContext<MyOptions, MyOptions>): MyOptions;
 export {};

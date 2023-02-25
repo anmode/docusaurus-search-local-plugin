@@ -5,7 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { useHistory } from "@docusaurus/router";
 
 export type DSLALocationState = {
-  cmfcmfhighlight?: { terms: string[]; isDocsOrBlog: boolean };
+  anmodehighlight?: { terms: string[]; isDocsOrBlog: boolean };
 };
 
 export function HighlightSearchResults() {
@@ -16,24 +16,24 @@ export function HighlightSearchResults() {
   } = useDocusaurusContext();
 
   const [highlightData, setHighlightData] = useState<
-    NonNullable<DSLALocationState["cmfcmfhighlight"]>
+    NonNullable<DSLALocationState["anmodehighlight"]>
   >({ terms: [], isDocsOrBlog: false });
 
   useEffect(() => {
     if (
-      !location.state?.cmfcmfhighlight ||
-      location.state.cmfcmfhighlight.terms.length === 0
+      !location.state?.anmodehighlight ||
+      location.state.anmodehighlight.terms.length === 0
     ) {
       return;
     }
-    setHighlightData(location.state.cmfcmfhighlight);
+    setHighlightData(location.state.anmodehighlight);
 
-    const { cmfcmfhighlight, ...state } = location.state;
+    const { anmodehighlight, ...state } = location.state;
     history.replace({
       ...location,
       state,
     });
-  }, [location.state?.cmfcmfhighlight, history, location]);
+  }, [location.state?.anmodehighlight, history, location]);
 
   useEffect(() => {
     if (highlightData.terms.length === 0) {

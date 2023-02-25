@@ -1,5 +1,5 @@
 export type DSLALocationState = {
-    cmfcmfhighlight?: {
+    anmodehighlight?: {
         terms: string[];
         isDocsOrBlog: boolean;
     };

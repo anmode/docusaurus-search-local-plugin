@@ -1,7 +1,7 @@
 {
-  "cmfcmf/d-s-l.searchBar.placeholder": "Vyhledat...",
-  "cmfcmf/d-s-l.searchBar.noResults": "Nenalezeny žádné výsledky.",
-  "cmfcmf/d-s-l.searchBar.clearButtonTitle": "Vymazat",
-  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": "Zrušit",
-  "cmfcmf/d-s-l.searchBar.submitButtonTitle": "Potvrdit"
+  "anmode/d-s-l.searchBar.placeholder": "Vyhledat...",
+  "anmode/d-s-l.searchBar.noResults": "Nenalezeny žádné výsledky.",
+  "anmode/d-s-l.searchBar.clearButtonTitle": "Vymazat",
+  "anmode/d-s-l.searchBar.detachedCancelButtonText": "Zrušit",
+  "anmode/d-s-l.searchBar.submitButtonTitle": "Potvrdit"
 }
