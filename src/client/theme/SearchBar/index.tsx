@@ -12,7 +12,7 @@ import Head from "@docusaurus/Head";
 import { translate } from "@docusaurus/Translate";
 import { useHistory } from "@docusaurus/router";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { mylunr, tokenize } from "./generatedWrapper";
+import { mylunr, tokenize } from "./d-s-l-a-generated";
 import {
   DSLALocationState,
   HighlightSearchResults,
@@ -178,10 +178,7 @@ const SearchBar = () => {
       container: autocompleteRef.current,
       placeholder,
       // Use React instead of Preact
-      renderer: { createElement, Fragment },
-      render({ children }, root) {
-        render(children as any, root);
-      },
+      renderer: { createElement, Fragment, render: render as any },
       // Use react-router for navigation
       navigator: {
         navigate({ item, itemUrl }) {
