@@ -1,6 +1,6 @@
 {
   "name": "@anmode/docusaurus-search-local",
-  "version": "0.11.4",
+  "version": "0.11.7",
   "description": "Local / Offline Search for Docusaurus",
   "keywords": [
     "docusaurus",
@@ -20,7 +20,6 @@
     "/codeTranslations",
     "/lib",
     "/LICENSE",
-    "/CHANGELOG.md",
     "/README.md"
   ],
   "publishConfig": {
@@ -95,7 +94,6 @@
     "dev:server": "tsc --project tsconfig.server.json --watch",
     "test": "jest src",
     "test:e2e": "playwright test e2e-tests",
-    "prepack": "cp ../../CHANGELOG.md ../../README.md .",
     "postpack": "rm -f CHANGELOG.md README.md"
   }
 }
